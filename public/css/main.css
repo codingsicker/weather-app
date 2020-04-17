@@ -1,0 +1,65 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html {
+	font-family: sans-serif;
+}
+.main-container {
+	max-width: 1140px;
+	height: 100%;
+	margin: 0 auto;
+}
+h1 {
+	color: gray;
+}
+.nav-list {
+	list-style-type: none;
+	display: flex;
+}
+.nav-item {
+	margin-right: 30px;
+	padding: 20px;
+}
+.nav-link {
+	text-decoration: none;
+	color: gray;
+	font-weight: bold;
+}
+footer {
+	margin-top: 50px;
+}
+form {
+	margin: 0 auto;
+	padding: 30px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+input {
+	height: 35px;
+	width: 350px;
+	padding: 5px;
+	font-size: 20px;
+	letter-spacing: 2px;
+	margin-bottom: 20px;
+}
+button {
+	height: 35px;
+	width: 100px;
+	cursor: pointer;
+	background-color: rgb(44, 136, 211);
+	border: none;
+	color: #fff;
+}
+.weather-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 30px;
+	font-size: 20px;
+}
+#msg-1 {
+	color: gray;
+}
