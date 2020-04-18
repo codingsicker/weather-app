@@ -5,7 +5,6 @@ const messageTwo = document.querySelector('#msg-2');
 
 const clearInput = () => {
 	search.value = '';
-	search.focus();
 };
 
 const featchWeather = location => {
@@ -29,6 +28,7 @@ form.addEventListener('submit', e => {
 	}
 
 	messageOne.innerText = 'Loading...';
+	messageTwo.innerText = '';
 	featchWeather(location);
 	clearInput();
 });
